@@ -29,7 +29,7 @@ exclude:
 ## 3. Git提交规范（强制）
 1. GitHub用户名: lerbao
 2. 远程仓库: git@github.com:lerbao/Marquee.git (SSH方式)
-3. SSH密钥路径: C:\Users\20808\.ssh\id_ed25519
+3. SSH密钥路径: C:/Users/20808/.ssh/id_ed25519（注意使用正斜杠，避免转义）
 4. 禁止使用LFS！二进制文件(.ttc/.ttf/.so)直接提交，不创建.gitattributes
 5. 提交前必须执行 git status 检查，确认无遗漏文件
 6. 推送命令固定: git push origin main
