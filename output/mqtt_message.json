@@ -1,0 +1,22 @@
+{
+    "text": "动态修改跑马灯文字",
+    "font_size": 50,
+    "scroll_speed": 1,
+    "height": 50,
+    "position": 1,
+    "text_align": 0,
+    "font_bold": false,
+    "show_weather": false,
+    "show_world_time": false,
+    "weather_position": 0,
+    "scroll_mode": 0,
+    "stay_time": 3000,
+    "alpha": 1.0,
+    "font_italic": 0,
+    "border_color": [1.0, 1.0, 1.0, 1.0],
+    "border_width": 0,
+    "screen_align": 1,
+    "enable": false,
+    "text_color": [1.0, 1.0, 1.0, 1.0],
+    "bg_color": [0.0, 0.0, 0.0, 0.0]
+}

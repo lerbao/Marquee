@@ -1,0 +1,24 @@
+# 历史文件
+.history/
+
+# 编译产物
+*.o
+*.a
+*.so
+zx_app_marquee
+
+# IDE配置
+.vscode/
+.idea/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db

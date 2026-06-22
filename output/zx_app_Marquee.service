@@ -1,0 +1,27 @@
+[Unit]
+Description=ZX App Marquee Service - EGL/GLES2 Marquee Display
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/userdata/zxbox/system/Marquee
+ExecStartPre=/bin/bash /userdata/zxbox/system/Marquee/get_resolution.sh /userdata/zxbox/system/Marquee/config.json
+ExecStart=/userdata/zxbox/system/Marquee/zx_app_marquee
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=zx_app_marquee
+
+# 环境变量
+Environment=LD_LIBRARY_PATH=/opt/zx_app_marquee/lib
+
+# 安全设置
+NoNewPrivileges=false
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

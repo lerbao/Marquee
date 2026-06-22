@@ -1,0 +1,17 @@
+{
+    "plane_id": 173,
+    "win_w": 0,
+    "win_h": 0,
+    "pos_x": 0,
+    "pos_y": 1080,
+    "alpha": 1.0,
+    "show_weather": false,
+    "show_world_time": false,
+    "weather_position": 0,
+    "mqtt": {
+        "host": "172.20.32.158",
+        "port": 1883,
+        "client_id": "marquee_client",
+        "topic": "marquee/control"
+    }
+}
