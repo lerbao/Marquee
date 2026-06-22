@@ -27,13 +27,14 @@ exclude:
 - test/       # 测试目录默认忽略，需要分析再手动指定
 
 ## 3. Git提交规范（强制）
-1. 远程仓库: git@github.com:lerbao/Marquee.git (SSH方式)
-2. SSH密钥: C:\Users\20808\.ssh\id_ed25519
-3. 禁止使用LFS！二进制文件(.ttc/.ttf/.so)直接提交，不创建.gitattributes
-4. 提交前必须执行 git status 检查，确认无遗漏文件
-5. 推送命令固定: git push origin main
-6. 提交信息格式: 中文简要描述，如"修复xxx问题"、"新增xxx功能"
-7. 禁止提交编译产物(.o/.obj)、IDE临时文件、.history目录
+1. GitHub用户名: lerbao
+2. 远程仓库: git@github.com:lerbao/Marquee.git (SSH方式)
+3. SSH密钥路径: C:\Users\20808\.ssh\id_ed25519
+4. 禁止使用LFS！二进制文件(.ttc/.ttf/.so)直接提交，不创建.gitattributes
+5. 提交前必须执行 git status 检查，确认无遗漏文件
+6. 推送命令固定: git push origin main
+7. 提交信息格式: 中文简要描述，如"修复xxx问题"、"新增xxx功能"
+8. 禁止提交编译产物(.o/.obj)、IDE临时文件、.history目录
 
 ## 4. 输出约束
 1. 修改代码优先输出变更片段，完整文件按需提供
